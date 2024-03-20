@@ -1,0 +1,192 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://quint5art.github.io/Quint Gregory IIIF workshop training/manifests/manifestQG5IIIF.json",
+  "@type" : "sc:Manifest",
+  "label" : "A few of Quint's favorite places",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "A selection of successful panoramas (there have been many NOT successful) that serve as cherished reminders of fortunate travels.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "multi-image panoramas shot and produced over the years by Quint Gregory",
+  "sequences" : [ {
+    "@id" : "http://66a0b0f1-d0b5-4909-b169-810f277b7901",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://f330f638-f637-462b-a67e-52cb5f8bb14c",
+      "@type" : "sc:Canvas",
+      "label" : "Portofino, Italy, shot from Castello Brown",
+      "height" : 1200,
+      "width" : 5402,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://40169905-70f8-4522-b0ff-39e897d3f8fa",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/portofino_202403/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/portofino_202403",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1200,
+          "width" : 5402
+        },
+        "on" : "http://f330f638-f637-462b-a67e-52cb5f8bb14c"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://00eef617-d525-40cb-bb19-582675903969",
+      "@type" : "sc:Canvas",
+      "description" : "View of Torino looking north across the river Po to Torino, and beyond, the Alps. Taken from Chiesa di Santa Maria del Monte dei Cappuccini",
+      "label" : "View of Torino looking north across the river Po to Torino, and beyond, the Alps. Taken from Chiesa di Santa Maria del Monte dei Cappuccini",
+      "height" : 1200,
+      "width" : 5666,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9e227d3e-aff1-440a-b7e6-46a43d6ea73a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/torino_202403/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/torino_202403",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1200,
+          "width" : 5666
+        },
+        "on" : "http://00eef617-d525-40cb-bb19-582675903969"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://00eef617-d525-40cb-bb19-582675903969",
+      "@type" : "sc:Canvas",
+      "description" : "Built in the 19th-century with the intention of being a synagogue, the congregation rejected the building, which now is a museum of cinema",
+      "label" : "Mole Antonelliana, Torino, Italy",
+      "height" : 1200,
+      "width" : 5666,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://9e227d3e-aff1-440a-b7e6-46a43d6ea73a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/torino_202403/4094,106,191,340/800,/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/torino_202403",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1200,
+          "width" : 5666
+        },
+        "on" : "http://00eef617-d525-40cb-bb19-582675903969"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://1760dcbf-96e0-4676-a0fd-256b73274ff0",
+      "@type" : "sc:Canvas",
+      "label" : "Yellow Mounds in the Badlands National Park, South Dakota",
+      "height" : 4611,
+      "width" : 17667,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://56fc12c9-96c6-4615-8a0c-387ba67c97d3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/yellow-mounds-badlands/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/yellow-mounds-badlands",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4611,
+          "width" : 17667
+        },
+        "on" : "http://1760dcbf-96e0-4676-a0fd-256b73274ff0"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://da6cf9ae-d84f-45ae-9e99-26a308dc33f5",
+      "@type" : "sc:Canvas",
+      "label" : "Path of the Gods, looking towards Positano, Italy along the Tyrrhenian Sea",
+      "height" : 3136,
+      "width" : 9714,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://aa8ca6e0-9e50-4732-a264-380e5a177513",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/path-of-the-gods-final-copy/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/path-of-the-gods-final-copy",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3136,
+          "width" : 9714
+        },
+        "on" : "http://da6cf9ae-d84f-45ae-9e99-26a308dc33f5"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://b092241e-99e0-4e84-b404-21ee5dc65fdb",
+      "@type" : "sc:Canvas",
+      "label" : "12 Bens From Diamond Hill",
+      "height" : 1200,
+      "width" : 5700,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b859ba7b-7e90-4bf7-b7b2-c7993d3b2543",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/12-bens-from-diamond-hill/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/12-bens-from-diamond-hill",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1200,
+          "width" : 5700
+        },
+        "on" : "http://b092241e-99e0-4e84-b404-21ee5dc65fdb"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "12 Bens From Diamond Hill (Connemara National Park, Ireland, 2011)",
+    "canvases" : [ "http://b092241e-99e0-4e84-b404-21ee5dc65fdb" ]
+  } ]
+}
