@@ -1,0 +1,13 @@
+{
+  "id" : "https://quint5art.github.io/Quint Gregory IIIF workshop training/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in quint5art/Quint-Gregory-IIIF-workshop-training project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://quint5art.github.io/Quint Gregory IIIF workshop training/manifests/manifest2QG-IIIF2024.json",
+    "label" : "A few of Quint's favorite places"
+  } ]
+}
