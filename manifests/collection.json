@@ -21,5 +21,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://quint5art.github.io/Quint Gregory IIIF workshop training/manifests/manifestQG5IIIF.json",
     "label" : "A few of Quint's favorite places"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://quint5art.github.io/Quint Gregory IIIF workshop training/manifests/manifestQGIIIF.json",
+    "label" : "A few of Quint's favorite places"
   } ]
 }
