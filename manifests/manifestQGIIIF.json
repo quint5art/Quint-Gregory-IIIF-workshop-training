@@ -1,0 +1,115 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://quint5art.github.io/Quint Gregory IIIF workshop training/manifests/manifestQGIIIF.json",
+  "@type" : "sc:Manifest",
+  "label" : "A few of Quint's favorite places",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "A selection of successful panoramas (there have been many NOT successful) that serve as cherished reminders of fortunate travels.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "attribution" : "multi-image panoramas shot and produced over the years by Quint Gregory",
+  "sequences" : [ {
+    "@id" : "http://66a0b0f1-d0b5-4909-b169-810f277b7901",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://b092241e-99e0-4e84-b404-21ee5dc65fdb",
+      "@type" : "sc:Canvas",
+      "description" : "12 Bens From Diamond Hill, Connemara National Park, Ireland",
+      "label" : "12 Bens From Diamond Hill",
+      "height" : 1200,
+      "width" : 5700,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b859ba7b-7e90-4bf7-b7b2-c7993d3b2543",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/12-bens-from-diamond-hill/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/12-bens-from-diamond-hill",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1200,
+          "width" : 5700
+        },
+        "on" : "http://b092241e-99e0-4e84-b404-21ee5dc65fdb"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://b092241e-99e0-4e84-b404-21ee5dc65fdb",
+      "@type" : "sc:Canvas",
+      "description" : "The 12 Bens",
+      "label" : "12 Bens From Diamond Hill",
+      "height" : 1200,
+      "width" : 5700,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b859ba7b-7e90-4bf7-b7b2-c7993d3b2543",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/12-bens-from-diamond-hill/777,249,2850,599/800,/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/12-bens-from-diamond-hill",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1200,
+          "width" : 5700
+        },
+        "on" : "http://b092241e-99e0-4e84-b404-21ee5dc65fdb"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://b092241e-99e0-4e84-b404-21ee5dc65fdb",
+      "@type" : "sc:Canvas",
+      "description" : "Traveling companion",
+      "label" : "12 Bens From Diamond Hill",
+      "height" : 1200,
+      "width" : 5700,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b859ba7b-7e90-4bf7-b7b2-c7993d3b2543",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/12-bens-from-diamond-hill/627,1069,891,128/800,/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/12-bens-from-diamond-hill",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1200,
+          "width" : 5700
+        },
+        "on" : "http://b092241e-99e0-4e84-b404-21ee5dc65fdb"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "12 Bens From Diamond Hill (Connemara National Park, Ireland, 2011)",
+    "canvases" : [ "http://b092241e-99e0-4e84-b404-21ee5dc65fdb" ]
+  } ]
+}
